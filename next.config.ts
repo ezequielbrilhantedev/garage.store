@@ -11,6 +11,18 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'down-tx-br.img.susercontent.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'down-br.img.susercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'down-cvs-br.img.susercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'down-bs-br.img.susercontent.com',
+      },
     ],
   },
 };

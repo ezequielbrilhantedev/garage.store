@@ -1,4 +1,4 @@
-import { ExternalLink, ShoppingBag } from 'lucide-react';
+import { ShoppingBag } from 'lucide-react';
 import Image from 'next/image';
 import { Product } from '../data/products';
 
@@ -40,15 +40,6 @@ export function ProductCard({ product }: ProductCardProps) {
           >
             <ShoppingBag size={14} className="group-hover/btn:-translate-y-0.5 transition-transform duration-300" />
             Comprar
-          </a>
-
-          <a
-            href={product.affiliateLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-lg bg-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-700 transition-all border border-zinc-700"
-          >
-            <ExternalLink size={16} />
           </a>
         </div>
       </div>
