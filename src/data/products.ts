@@ -135,4 +135,13 @@ export const products: Product[] = [
     affiliateLink:
       'https://s.shopee.com.br/7AXUO479HD?share_channel_code=1',
   },
+  {
+    id: '13',
+    name: '3D Liga De Alumínio Rline Emblema Volante Do Carro Adesivo Acessórios Para Volkswagen GTI Polo Golf ',
+    category: 'acessorios',
+    imageUrl:
+      'https://down-tx-br.img.susercontent.com/sg-11134201-7rd3t-m7q01w4wfjul94.avif',
+    affiliateLink:
+      'https://s.shopee.com.br/2VlfvuMvau?share_channel_code=1',
+  },
 ];
